@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+/* banner section started */
+.banner-container{
+    background-image: url(/images/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner{
+    max-width: 1440px;
+    height: 810px;
+    margin: auto;
+    color: white;
+}
+/* navbar style started */
+.logo h3{
+    font-weight:800;
+    font-size: 25px;
+}
+.logo span{
+    color:orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 150px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+.hire-btn{
+    background-color: orange;
+    border-radius: 5px;
+    color:white;
+    padding:10px 25px;
+}
+.hire-btn:hover{
+    background-color: white;
+    color:orange;
+}
+/* navbar style ended  */
+
+/* banner style started  */
+.book-btn{
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: black;
+    color:orange;
+    padding:10px 25px;
+    font-weight: 800;
+}
+.book-btn:hover{
+    border:2px solid white;
+    color:white;
+}
+
+.banner-text{
+    margin: 150px 150px;
+}
+
+.banner-text span{
+    color:orange;
+}
+.banner-text h4{
+    font-size:20px;
+}
+.banner-text h2{
+    font-size: 50px ;
+}
+.banner-text p{
+    margin-top: 20px;
+}
+.banner-text button{
+    margin-top: 30px;
+}
+
+/* header section ended */
