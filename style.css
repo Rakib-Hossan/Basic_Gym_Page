@@ -5,19 +5,31 @@
 }
 
 /* banner section started */
-.banner-container{
-    background-image: url(/images/header-background.png);
+header{
+    background-image: url(/images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+.primary-btn{
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: black;
+    color:orange;
+    padding:10px 25px;
+    font-weight: 800;
+}
+.primary-btn:hover{
+    border:2px solid white;
+    color:white;
+}
 
-.banner{
+/* navbar style started */
+.nav-section{
     max-width: 1440px;
     height: 810px;
     margin: auto;
     color: white;
 }
-/* navbar style started */
 .logo h3{
     font-weight:800;
     font-size: 25px;
@@ -47,34 +59,20 @@ nav a:hover{
     color:orange;
 }
 
-.hire-btn{
-    background-color: orange;
-    border-radius: 5px;
-    color:white;
-    padding:10px 25px;
-}
-.hire-btn:hover{
-    background-color: white;
-    color:orange;
-}
 /* navbar style ended  */
 
 /* banner style started  */
-.book-btn{
-    border: 2px solid orange;
-    border-radius: 5px;
-    background-color: black;
-    color:orange;
-    padding:10px 25px;
-    font-weight: 800;
-}
-.book-btn:hover{
-    border:2px solid white;
-    color:white;
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+    gap: 50px;
 }
 
 .banner-text{
-    margin: 150px 150px;
+    width: 50%;
 }
 
 .banner-text span{
@@ -92,5 +90,10 @@ nav a:hover{
 .banner-text button{
     margin-top: 30px;
 }
-
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+   width:100%;
+}
 /* header section ended */
