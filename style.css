@@ -217,7 +217,7 @@ nav a:hover{
 
 /* contact section started  */
 #contact-container{
-    background-image: linear-gradient(to right, black,hsla(0, 0%, 0%, 0.604)),url(/images/contact-bg.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.738),hsla(0, 0%, 0%, 0.604)),url(/images/contact-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
@@ -227,4 +227,45 @@ nav a:hover{
     text-align: center;
     padding: 30px;
     margin-bottom: 20px;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 150px;
+    gap: 50px;
+}
+.address{
+    width: 50%;
+    text-align: justify;
+    line-height: 25px;
+}
+.address h3{
+    font-size: 30px;
+    color:orange;
+    margin-bottom: 30px;
+}
+.social{
+    font-weight: 600;
+    color:orange;
+    margin: 10px 0px;
+}
+.address i{
+    color:orange;
+    padding: 10px;
+    font-size: 30px;
+}
+.contact-form{
+    width: 50%;
+}
+.contact-form input,textarea{
+    padding:15px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: black;
+    border: 2px solid orange;
+    color:orange;
+}
+.contact-form input[type=submit]{
+    width: 105%;
 }
