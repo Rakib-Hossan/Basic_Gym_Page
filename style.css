@@ -6,7 +6,7 @@
 
 /* banner section started */
 header{
-    background-image: url(/images/header-bg1.png);
+    background-image: url(/images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -117,7 +117,7 @@ nav a:hover{
 }
 .about-details h4{
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .about-details h2{
     font-size: 40px;
@@ -134,3 +134,97 @@ nav a:hover{
     width: 100%;
 }
 /* about section ended  */
+
+/* trainer section started */
+#trainer-container{
+    background-color: black;
+    color:white;
+    padding:50px 0px;
+}
+#trainer-container h2{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.trainer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 0 150px;
+    gap: 30px;
+}
+.trainer-details{
+    width:25%;
+    text-align: center;
+    margin: 45px 0px;
+}
+.trainer-details img{
+    width: 100%;
+    border-radius: 50%;
+}
+.trainer-details h3{
+    font-weight: 800;
+    color: orange;
+}
+
+.trainer-details p{
+    font-weight: 600;
+}
+
+/* trainer section ended */
+
+/* services section started */
+#service-container{
+    background-color: black;
+    color:white;
+    padding:50px 0px;
+}
+#service-container h2{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.service-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 150px;
+    gap:50px;
+}
+
+.service-title{
+    color: orange;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services{
+    width: 30%;
+    padding: 30px;
+    border: 3px solid orange;
+    border-radius: 20px;
+}
+.services img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* service section ended  */
+
+/* contact section started  */
+#contact-container{
+    background-image: linear-gradient(to right, black,hsla(0, 0%, 0%, 0.604)),url(/images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding:150px 0px;
+}
+#contact-container h2{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
