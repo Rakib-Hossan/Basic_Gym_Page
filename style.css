@@ -244,6 +244,7 @@ nav a:hover{
     font-weight: 600;
     color:orange
 }
+/* booking section ended */
 
 /* contact section started  */
 #contact-container{
@@ -300,3 +301,11 @@ nav a:hover{
     width: 105%;
 }
 /* contact section ended  */
+
+/* footer section */
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
