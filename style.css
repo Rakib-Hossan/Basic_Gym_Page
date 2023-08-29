@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* banner section started */
 header{
-    background-image: url(/images/header-bg.png);
+    background-image: url(/images/header-bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,26 +16,26 @@ header{
     background-color: black;
     color:orange;
     padding:10px 25px;
-    font-weight: 800;
+    font-weight: 600;
 }
 .primary-btn:hover{
     border:2px solid white;
     color:white;
 }
+span{
+    color:orange
+}
 
 /* navbar style started */
 .nav-section{
     max-width: 1440px;
-    height: 810px;
+    padding-bottom: 100px;
     margin: auto;
     color: white;
 }
 .logo h3{
     font-weight:800;
     font-size: 25px;
-}
-.logo span{
-    color:orange;
 }
 nav{
     display: flex;
@@ -67,22 +67,19 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px;
+    margin: 0px 150px;
     gap: 50px;
 }
 
 .banner-text{
     width: 50%;
-}
-
-.banner-text span{
-    color:orange;
+    padding-top: 100px;
 }
 .banner-text h4{
     font-size:20px;
 }
 .banner-text h2{
-    font-size: 50px ;
+    font-size: 60px ;
 }
 .banner-text p{
     margin-top: 20px;
@@ -96,4 +93,44 @@ nav a:hover{
 .banner-img img{
    width:100%;
 }
+/* banner style started  */
+
 /* header section ended */
+
+/* about section */
+#about-container{
+    background-color: black;
+    color:white;
+    padding:150px 0px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 0 150px;
+}
+.about-details{
+    width: 50%;
+    margin-top:50px;
+    text-align: justify;
+}
+.about-details h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+.about-details h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.about-details p{
+    margin-bottom: 10px;
+}
+.about-img{
+    margin-top: 50px;
+    width: 50%;
+}
+.about-img img{
+    width: 100%;
+}
+/* about section ended  */
