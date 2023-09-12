@@ -90,9 +90,10 @@ nav a:hover{
 
 .banner-img{
     width: 50%;
+    z-index: 1;
 }
 .banner-img img{
-   width:100%;
+   width:120%;
 }
 /* banner style started  */
 
@@ -293,7 +294,7 @@ nav a:hover{
     padding:15px;
     width: 100%;
     margin-bottom: 15px;
-    background-color: black;
+    background-color: transparent;
     border: 2px solid orange;
     color:orange;
 }
