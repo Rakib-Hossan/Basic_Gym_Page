@@ -1,0 +1,218 @@
+@media screen and (max-width:575px){
+    nav{
+        display: none;
+    }
+    .banner{
+        margin: 0px 50px;
+        flex-wrap: wrap;
+    }
+    .banner-text{
+        flex-basis: 100%;
+    }
+    .banner-text h4{
+        font-size:16px;
+    }
+    .banner-text h2{
+        font-size: 30px ;
+    }
+    .banner-img{
+        flex-basis: 100%;
+    }
+    .about{
+        margin: 0 50px;
+        flex-wrap: wrap-reverse;
+    }
+    .about-details{
+        flex-basis: 100%;
+    }
+    .about-details h2{
+        font-size: 30px;
+    }
+    .about-img{
+        flex-basis: 100%;
+    }
+    .trainer-section{
+        margin: 0 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .trainer-details{
+        flex-basis: 100%;
+    }
+    .service-section{
+        margin:0px 50px;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .services{
+        flex-basis: 100%;
+    }
+    .service-title{
+        font-size: 16px;
+    }
+    .booking-section{
+        margin:0 60px;
+    }
+    .contact-section{
+        margin:50px 50px;
+        flex-wrap: wrap;
+    }
+    .address{
+        flex-basis: 100%;
+    }
+    .contact-form{
+        flex-basis: 100%;
+     }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    nav{
+       display: none;
+    }
+    .banner{
+        margin: 0px 50px;
+        flex-wrap: wrap;
+    }
+    .banner-text{
+        flex-basis: 100%;
+    }
+    .banner-img{
+        flex-basis: 100%;
+    }
+    .about{
+        margin: 0 50px;
+        flex-wrap: wrap-reverse;
+    }
+    .about-details{
+        flex-basis: 100%;
+    }
+    .about-img{
+        flex-basis: 100%;
+    }
+    .trainer-section{
+        margin: 0 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .trainer-details{
+        flex-basis: 40%;
+    }
+    .service-section{
+        margin:0px 50px;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .services{
+        flex-basis: 100%;
+    }
+    .service-title{
+        font-size: 16px;
+    }
+    .booking-section{
+        margin:0 60px;
+    }
+    .contact-section{
+        margin:50px 50px;
+        flex-wrap: wrap;
+    }
+    .address{
+        flex-basis: 100%;
+    }
+    .contact-form{
+        flex-basis: 100%;
+     }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+   nav{
+    display: none;
+   }
+   .banner{
+    margin: 0px 60px;
+}
+    .banner-text h4{
+        font-size:16px;
+    }
+    .banner-text h2{
+        font-size: 30px ;
+    }
+    .banner-text p{
+       font-size: 14px;
+    }
+    .banner-img img{
+       width:80%;
+    }
+    .about{
+        margin: 0 60px;
+    }
+    .about-details h2{
+        font-size: 30px;
+    }
+    .about-img img{
+        transform: scale(1.15);
+    }
+    .trainer-section{
+        margin: 0 60px;
+    }
+    .service-section{
+        margin:0px 60px;
+        gap:20px;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .services{
+        flex-basis: 40%;
+    }
+    .booking-section{
+        margin:0 80px;
+    }
+    .contact-section{
+        margin:50px 60px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    nav{
+        margin: 0 80px;
+    } 
+    nav ul li a{
+        margin-left: 30px;
+    }
+    .banner{
+        margin: 0px 80px;
+    }
+    .banner-text h4{
+        font-size:18px;
+    }
+    .banner-text h2{
+        font-size: 40px ;
+    }
+    .banner-img img{
+        width:80%;
+     }
+    .about{
+        margin: 0 80px;
+    }
+    .about-details h2{
+        font-size: 36px;
+    }
+    .trainer-section{
+        margin: 0 80px;
+    }
+    .service-section{
+        margin:0px 80px;
+    }
+    .service-title{
+        font-size: 18px;
+    }
+    .service-details{
+        font-size:14px;
+    }
+    .booking-section{
+        margin:0 100px;
+    }
+    .contact-section{
+        margin:50px 80px;
+    }
+}
