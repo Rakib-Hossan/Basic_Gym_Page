@@ -1,7 +1,33 @@
 @media screen and (max-width:575px){
+    /* nav style  */
     nav{
+        margin: 0px 40px;
+     }
+    .nav-menu{
         display: none;
+        flex-direction: column;
+        gap:20px;
+        position: absolute;
+        top:60px;
+        left:0;
+        right:0;
+        background-color: orange;
+        padding:20px;
     }
+    nav ul li a:hover{
+        color:black;
+    }
+    .navBtn{
+        display: block;
+    }
+
+    #navBox:checked~.nav-menu{
+        display: flex;
+    }
+
+    /* nav style */
+
+    /* banner style  */
     .banner{
         margin: 0px 50px;
         flex-wrap: wrap;
@@ -18,6 +44,9 @@
     .banner-img{
         flex-basis: 100%;
     }
+    /* banner style */
+
+    /* about style */
     .about{
         margin: 0 50px;
         flex-wrap: wrap-reverse;
@@ -31,6 +60,9 @@
     .about-img{
         flex-basis: 100%;
     }
+    /* about style */
+
+    /* trainer style */
     .trainer-section{
         margin: 0 50px;
         flex-wrap: wrap;
@@ -39,6 +71,9 @@
     .trainer-details{
         flex-basis: 100%;
     }
+    /* trainer style */
+
+    /* service style */
     .service-section{
         margin:0px 50px;
         flex-wrap:wrap;
@@ -50,9 +85,15 @@
     .service-title{
         font-size: 16px;
     }
+    /* service style */
+
+    /* booking style */
     .booking-section{
         margin:0 60px;
     }
+    /* booking style */
+
+    /* contact style */
     .contact-section{
         margin:50px 50px;
         flex-wrap: wrap;
@@ -63,23 +104,55 @@
     .contact-form{
         flex-basis: 100%;
      }
-    
+    /* contact style */
 }
 
 @media screen and (min-width:576px) and (max-width:767px){
-    nav{
-       display: none;
+     /* nav style  */
+     nav{
+        margin: 0px 40px;
+     }
+    .nav-menu{
+        display: none;
+        flex-direction: column;
+        gap:20px;
+        position: absolute;
+        top:60px;
+        left:0;
+        right:0;
+        background-color: orange;
+        padding:20px;
     }
+    nav ul li a:hover{
+        color:black;
+    }
+    .navBtn{
+        display: block;
+    }
+
+    #navBox:checked~.nav-menu{
+        display: flex;
+    }
+     /* nav style  */
+
+     /* banner style */
     .banner{
         margin: 0px 50px;
         flex-wrap: wrap;
     }
     .banner-text{
         flex-basis: 100%;
+       
+    }
+    .banner-text h2{
+        font-size: 40px;
     }
     .banner-img{
         flex-basis: 100%;
     }
+      /* banner style */
+
+      /* about style */
     .about{
         margin: 0 50px;
         flex-wrap: wrap-reverse;
@@ -90,6 +163,9 @@
     .about-img{
         flex-basis: 100%;
     }
+    /* about style */
+
+    /* trainer style */
     .trainer-section{
         margin: 0 50px;
         flex-wrap: wrap;
@@ -98,6 +174,9 @@
     .trainer-details{
         flex-basis: 40%;
     }
+    /* trainer style */
+
+    /* service style */
     .service-section{
         margin:0px 50px;
         flex-wrap:wrap;
@@ -109,9 +188,15 @@
     .service-title{
         font-size: 16px;
     }
+    /* service style */
+
+    /* booking style */
     .booking-section{
         margin:0 60px;
     }
+     /* booking style */
+
+     /* contact style */
     .contact-section{
         margin:50px 50px;
         flex-wrap: wrap;
@@ -122,15 +207,21 @@
     .contact-form{
         flex-basis: 100%;
      }
+     /* contact style */
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
-   nav{
-    display: none;
-   }
+    /* nav style */
+    nav{
+        font-size: 12px;
+        margin: 0px 60px;
+    }
+    /* nav style */
+
+    /* banner style */
    .banner{
     margin: 0px 60px;
-}
+    }
     .banner-text h4{
         font-size:16px;
     }
@@ -143,6 +234,9 @@
     .banner-img img{
        width:80%;
     }
+    /* banner style */
+
+    /* about style */
     .about{
         margin: 0 60px;
     }
@@ -152,9 +246,15 @@
     .about-img img{
         transform: scale(1.15);
     }
+    /* about style */
+
+    /* trainer style */
     .trainer-section{
         margin: 0 60px;
     }
+    /* trainer style */
+
+    /* service style */
     .service-section{
         margin:0px 60px;
         gap:20px;
@@ -164,21 +264,36 @@
     .services{
         flex-basis: 40%;
     }
+    /* service style */
+
+    /* booking style */
     .booking-section{
         margin:0 80px;
     }
+    /* booking style */
+
+    /* contact style */
     .contact-section{
         margin:50px 60px;
     }
+    /* contact style */
 }
 
 @media screen and (min-width:992px) and (max-width:1200px){
+    /* nav style */
     nav{
-        margin: 0 80px;
-    } 
+        font-size: 14px;
+        margin: 0px 80px;
+    }
+    .nav-menu{
+        gap:20px;
+    }
     nav ul li a{
         margin-left: 30px;
     }
+    /* nav style */
+
+    /* banner style */
     .banner{
         margin: 0px 80px;
     }
@@ -191,15 +306,24 @@
     .banner-img img{
         width:80%;
      }
+     /* banner style */
+
+     /* about style */
     .about{
         margin: 0 80px;
     }
     .about-details h2{
         font-size: 36px;
     }
+    /* about style */
+
+    /* trainer style */
     .trainer-section{
         margin: 0 80px;
     }
+    /* trainer style */
+
+    /* service style */
     .service-section{
         margin:0px 80px;
     }
@@ -209,10 +333,17 @@
     .service-details{
         font-size:14px;
     }
+    /* service style */
+
+    /* booking style */
     .booking-section{
         margin:0 100px;
     }
+    /* booking style */
+
+    /* contact style */
     .contact-section{
         margin:50px 80px;
     }
+    /* contact style */
 }
